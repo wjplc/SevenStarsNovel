@@ -1,0 +1,412 @@
+2023-12-13 10:39:46,064 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.6 on DESKTOP-4BE81MI with PID 19956 (E:\code\novel-wjp\novel\target\classes started by 86187 in E:\code\novel-wjp\novel)
+2023-12-13 10:39:46,072 INFO (SpringApplication.java:651)- The following 1 profile is active: "dev"
+2023-12-13 10:39:47,472 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-13 10:39:47,472 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-13 10:39:47,512 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-12-13 10:39:48,102 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 9999 (http)
+2023-12-13 10:39:48,112 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9999"]
+2023-12-13 10:39:48,112 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-12-13 10:39:48,112 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-13 10:39:48,283 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-12-13 10:39:48,283 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 2168 ms
+2023-12-13 10:39:49,772 INFO (WelcomePageHandlerMapping.java:53)- Adding welcome page: class path resource [static/index.html]
+2023-12-13 10:39:50,572 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ef4297d, org.springframework.security.web.context.SecurityContextPersistenceFilter@59c08cf1, org.springframework.security.web.header.HeaderWriterFilter@31e22365, org.springframework.security.web.authentication.logout.LogoutFilter@58b5f7d2, CustomUsernamePasswordAuthenticationFilter@2905b568, VerifyCodeAuthenticationFilter@1be8c122, JwtAuthenticationTokenFilter@20bb85b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@289a4b90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@513fab1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c000cc4, org.springframework.security.web.session.SessionManagementFilter@41bdaa81, org.springframework.security.web.access.ExceptionTranslationFilter@41404aa2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@736788b]
+2023-12-13 10:39:51,112 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9999"]
+2023-12-13 10:39:51,122 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 9999 (http) with context path ''
+2023-12-13 10:39:51,132 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-13 10:39:51,152 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#63814bbe:0/SimpleConnection@65da1cbe [delegate=amqp://guest@127.0.0.1:5672/, localPort= 65288]
+2023-12-13 10:39:51,212 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 5.76 seconds (JVM running for 6.63)
+2023-12-13 10:40:06,252 INFO (StartupInfoLogger.java:55)- Starting MqTest using Java 17.0.6 on DESKTOP-4BE81MI with PID 17420 (started by 86187 in E:\code\novel-wjp\novel)
+2023-12-13 10:40:06,256 INFO (SpringApplication.java:651)- The following 1 profile is active: "dev"
+2023-12-13 10:40:07,292 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-13 10:40:07,302 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-13 10:40:07,342 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-12-13 10:40:10,332 INFO (WelcomePageHandlerMapping.java:53)- Adding welcome page: class path resource [static/index.html]
+2023-12-13 10:40:11,942 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67a3dd86, org.springframework.security.web.context.SecurityContextPersistenceFilter@61c145cb, org.springframework.security.web.header.HeaderWriterFilter@12ebfb2d, org.springframework.security.web.authentication.logout.LogoutFilter@20f99c18, CustomUsernamePasswordAuthenticationFilter@430212cb, VerifyCodeAuthenticationFilter@1eb52131, JwtAuthenticationTokenFilter@1e1598e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79ee779c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6549ce71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67a3394c, org.springframework.security.web.session.SessionManagementFilter@180d918a, org.springframework.security.web.access.ExceptionTranslationFilter@6d92e327, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75c0cd39]
+2023-12-13 10:40:13,022 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-13 10:40:13,072 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#66715ca9:0/SimpleConnection@1832b0f6 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 65497]
+2023-12-13 10:40:13,143 INFO (StartupInfoLogger.java:61)- Started MqTest in 7.325 seconds (JVM running for 8.708)
+2023-12-13 10:40:14,530 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 10:40:14,531 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 10:40:15,142 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 10:40:15,168 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 10:40:15,168 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 10:40:15,168 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 10:46:06,182 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 10:46:06,182 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 10:46:06,194 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 10:46:06,195 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 10:46:06,217 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 10:46:06,217 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 10:46:13,202 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.6 on DESKTOP-4BE81MI with PID 10772 (E:\code\novel-wjp\novel\target\classes started by 86187 in E:\code\novel-wjp\novel)
+2023-12-13 10:46:13,202 INFO (SpringApplication.java:651)- The following 1 profile is active: "dev"
+2023-12-13 10:46:13,977 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-13 10:46:13,982 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-13 10:46:14,012 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-12-13 10:46:14,557 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 9999 (http)
+2023-12-13 10:46:14,562 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9999"]
+2023-12-13 10:46:14,562 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-12-13 10:46:14,562 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-13 10:46:14,712 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-12-13 10:46:14,722 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1480 ms
+2023-12-13 10:46:16,302 INFO (WelcomePageHandlerMapping.java:53)- Adding welcome page: class path resource [static/index.html]
+2023-12-13 10:46:18,672 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@578d472a, org.springframework.security.web.context.SecurityContextPersistenceFilter@8d5da7e, org.springframework.security.web.header.HeaderWriterFilter@990b86b, org.springframework.security.web.authentication.logout.LogoutFilter@2cf88901, CustomUsernamePasswordAuthenticationFilter@20864cd1, VerifyCodeAuthenticationFilter@3193e21d, JwtAuthenticationTokenFilter@700b9e6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16ef1160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53918b5e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1191029d, org.springframework.security.web.session.SessionManagementFilter@105c6c9e, org.springframework.security.web.access.ExceptionTranslationFilter@562f6681, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@773c7147]
+2023-12-13 10:46:19,162 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9999"]
+2023-12-13 10:46:19,194 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 9999 (http) with context path ''
+2023-12-13 10:46:19,194 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-13 10:46:19,222 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#e7b0bec:0/SimpleConnection@cda144a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52537]
+2023-12-13 10:46:19,284 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 6.467 seconds (JVM running for 7.179)
+2023-12-13 10:46:27,806 INFO (StartupInfoLogger.java:55)- Starting UserTest using Java 17.0.6 on DESKTOP-4BE81MI with PID 21328 (started by 86187 in E:\code\novel-wjp\novel)
+2023-12-13 10:46:27,812 INFO (SpringApplication.java:651)- The following 1 profile is active: "dev"
+2023-12-13 10:46:28,842 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-13 10:46:28,842 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-13 10:46:28,892 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2023-12-13 10:46:31,753 INFO (WelcomePageHandlerMapping.java:53)- Adding welcome page: class path resource [static/index.html]
+2023-12-13 10:46:33,393 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a30b0cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@757c685d, org.springframework.security.web.header.HeaderWriterFilter@2ae7c1d, org.springframework.security.web.authentication.logout.LogoutFilter@7fc56d61, CustomUsernamePasswordAuthenticationFilter@73d7d676, VerifyCodeAuthenticationFilter@8e3449e, JwtAuthenticationTokenFilter@3023f157, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34626d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62aee901, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f3aa970, org.springframework.security.web.session.SessionManagementFilter@7ac90dab, org.springframework.security.web.access.ExceptionTranslationFilter@32cde414, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34d11c92]
+2023-12-13 10:46:34,432 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-13 10:46:34,495 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#6dece1f9:0/SimpleConnection@24d097c8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52673]
+2023-12-13 10:46:34,572 INFO (StartupInfoLogger.java:61)- Started UserTest in 7.22 seconds (JVM running for 8.434)
+2023-12-13 10:46:35,112 INFO (UserServiceImpl.java:33)- 生成的手机验证码为：940692
+2023-12-13 10:46:35,637 INFO (VerifyCodeMqListener.java:49)- 开始发送手机验证码，手机号：18703985131，验证码：940692
+2023-12-13 10:46:35,662 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 10:46:35,662 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 10:46:36,132 INFO (VerifyCodeMqListener.java:97)- {"body":{"bizId":"764821302435594588^0","code":"OK","message":"OK","requestId":"29B0702B-0085-5B7C-BB17-2A1BA664D2FA"},"headers":{"access-control-allow-origin":"*","date":"Wed, 13 Dec 2023 02:46:34 GMT","content-length":"110","keep-alive":"timeout=25","x-acs-request-id":"29B0702B-0085-5B7C-BB17-2A1BA664D2FA","connection":"keep-alive","content-type":"application/json;charset=utf-8","etag":"11YnvCE0mURor7XK9wECYpQ0","access-control-expose-headers":"*","x-acs-trace-id":"d7a02765f400638b66f559a6577ea6af"},"statusCode":200}
+2023-12-13 10:46:36,132 INFO (VerifyCodeMqListener.java:98)- com.aliyun.dysmsapi20170525.models.SendSmsResponse@3cd1d9f0
+2023-12-13 10:46:36,583 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 10:46:36,584 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 10:46:36,584 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 10:46:36,584 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 22:12:46,514 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 22:12:46,514 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-13 22:12:46,691 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 22:12:46,706 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-13 22:12:46,808 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-13 22:12:46,808 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-15 21:03:14,477 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.6 on DESKTOP-4BE81MI with PID 4892 (E:\code\novel-wjp\novel\novel-server\target\classes started by 86187 in E:\code\novel-wjp\novel)
+2023-12-15 21:03:14,480 INFO (SpringApplication.java:637)- The following 1 profile is active: "dev"
+2023-12-15 21:03:16,102 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-15 21:03:16,105 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-15 21:03:16,144 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-12-15 21:03:16,304 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.wjp.novel.mapper]' package. Please check your configuration.
+2023-12-15 21:03:16,923 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 9999 (http)
+2023-12-15 21:03:16,935 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:03:16,936 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-12-15 21:03:16,936 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-12-15 21:03:17,116 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-12-15 21:03:17,116 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 2577 ms
+2023-12-15 21:03:17,797 ERROR (TomcatStarter.java:61)- Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'customUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsServiceImpl': Unsatisfied dependency expressed through field 'userAuthMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyn.novel.mapper.UserAuthMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-15 21:03:17,827 INFO (DirectJDKLog.java:173)- Stopping service [Tomcat]
+2023-12-15 21:03:17,840 WARN (DirectJDKLog.java:173)- The web application [ROOT] appears to have started a thread named [lettuce-timer-3-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/java.lang.Thread.sleep(Native Method)
+ app//io.netty.util.HashedWheelTimer$Worker.waitForNextTick(HashedWheelTimer.java:604)
+ app//io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:497)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-12-15 21:03:17,842 WARN (AbstractApplicationContext.java:591)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2023-12-15 21:03:17,875 INFO (ConditionEvaluationReportLoggingListener.java:136)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-15 21:03:17,897 ERROR (LoggingFailureAnalysisReporter.java:40)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userAuthMapper in com.lyn.novel.core.auth.service.impl.CustomUserDetailsServiceImpl required a bean of type 'com.lyn.novel.mapper.UserAuthMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lyn.novel.mapper.UserAuthMapper' in your configuration.
+
+2023-12-15 21:03:58,046 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.6 on DESKTOP-4BE81MI with PID 5944 (E:\code\novel-wjp\novel\novel-server\target\classes started by 86187 in E:\code\novel-wjp\novel)
+2023-12-15 21:03:58,049 INFO (SpringApplication.java:637)- The following 1 profile is active: "dev"
+2023-12-15 21:03:59,136 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-15 21:03:59,140 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-15 21:03:59,179 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-12-15 21:04:00,049 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 9999 (http)
+2023-12-15 21:04:00,062 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:04:00,063 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-12-15 21:04:00,064 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-12-15 21:04:00,256 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-12-15 21:04:00,256 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 2143 ms
+2023-12-15 21:04:03,564 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@169d4aba, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@612bb755, org.springframework.security.web.context.SecurityContextPersistenceFilter@574f9e36, org.springframework.security.web.header.HeaderWriterFilter@6ee1ddcf, org.springframework.security.web.authentication.logout.LogoutFilter@2431050d, com.lyn.novel.core.auth.filter.CustomUsernamePasswordAuthenticationFilter@55881f40, com.lyn.novel.core.auth.filter.VerifyCodeAuthenticationFilter@248b2b61, com.lyn.novel.core.filter.JwtAuthenticationTokenFilter@255ed8e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60b4d934, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30437e9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ba226cd, org.springframework.security.web.session.SessionManagementFilter@70aa03c0, org.springframework.security.web.access.ExceptionTranslationFilter@40db6136, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ea8ff31]
+2023-12-15 21:04:04,239 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:04:04,266 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 9999 (http) with context path ''
+2023-12-15 21:04:04,269 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-15 21:04:04,329 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#41f90b10:0/SimpleConnection@524dd373 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55027]
+2023-12-15 21:04:04,406 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 6.943 seconds (JVM running for 7.676)
+2023-12-15 21:05:01,752 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15 21:05:01,753 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-12-15 21:05:01,755 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-12-15 21:05:01,771 INFO (CustomUsernamePasswordAuthenticationFilter.java:40)- 用户名登录请求被过滤器拦截
+2023-12-15 21:05:01,804 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.valueOf(Integer.java:999)
+	at com.lyn.novel.core.auth.filter.CustomUsernamePasswordAuthenticationFilter.attemptAuthentication(CustomUsernamePasswordAuthenticationFilter.java:58)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-15 21:05:26,905 INFO (VerifyCodeAuthenticationFilter.java:38)- 验证码登录请求被过滤器拦截
+2023-12-15 21:05:26,907 INFO (VerifyCodeAuthenticationProvider.java:20)- 验证码登录请求开始验证...
+2023-12-15 21:05:27,505 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.lyn.novel.core.common.exception.AuthenticationException: 验证码已过期，请重新获取
+	at com.lyn.novel.core.auth.service.impl.CustomUserDetailsServiceImpl.loadCodeByIdentifier(CustomUserDetailsServiceImpl.java:72)
+	at com.lyn.novel.core.auth.provider.VerifyCodeAuthenticationProvider.authenticate(VerifyCodeAuthenticationProvider.java:26)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.lyn.novel.core.auth.filter.VerifyCodeAuthenticationFilter.attemptAuthentication(VerifyCodeAuthenticationFilter.java:71)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-15 21:06:11,829 INFO (UserServiceImpl.java:54)- 生成的邮箱验证码为：714023
+2023-12-15 21:06:11,896 INFO (VerifyCodeMqListener.java:111)- 开始发送邮箱验证码，邮箱：3273700548@qq.com，验证码：714023
+2023-12-15 21:06:39,628 INFO (VerifyCodeAuthenticationFilter.java:38)- 验证码登录请求被过滤器拦截
+2023-12-15 21:06:39,629 INFO (VerifyCodeAuthenticationProvider.java:20)- 验证码登录请求开始验证...
+2023-12-15 21:06:39,683 WARN (ReflectLambdaMeta.java:41)- Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @5fe94a96
+2023-12-15 21:06:39,705 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-12-15 21:06:39,960 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-12-15 21:06:40,195 INFO (CustomUserDetailsServiceImpl.java:64)- LoginUser(identifier=3273700548@qq.com, credential=null, permissions=[select, insert, update, delete], authorities=[select, insert, update, delete])
+2023-12-15 21:06:40,196 INFO (CustomAuthenticationSuccessHandler.java:42)- 认证成功，将为您生成token
+2023-12-15 21:06:40,631 INFO (CustomAuthenticationSuccessHandler.java:46)- token = eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzAyNjQ1NjA3fQ.poYdGbJHeWIa0_Q62FCSG3YJPi_HKmD5q-rHfA2SnS0
+2023-12-15 21:06:52,857 INFO (CustomUsernamePasswordAuthenticationFilter.java:40)- 用户名登录请求被过滤器拦截
+2023-12-15 21:06:52,858 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.valueOf(Integer.java:999)
+	at com.lyn.novel.core.auth.filter.CustomUsernamePasswordAuthenticationFilter.attemptAuthentication(CustomUsernamePasswordAuthenticationFilter.java:58)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-15 21:21:17,100 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-15 21:21:17,101 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-15 21:21:17,251 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-15 21:21:17,658 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-15 21:21:17,683 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-15 21:21:17,684 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-15 21:21:17,691 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-12-15 21:21:17,699 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2023-12-15 21:24:55,024 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.6 on DESKTOP-4BE81MI with PID 9688 (E:\code\novel-wjp\novel\novel-server\target\classes started by 86187 in E:\code\novel-wjp\novel)
+2023-12-15 21:24:55,027 INFO (SpringApplication.java:637)- The following 1 profile is active: "dev"
+2023-12-15 21:24:56,389 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-15 21:24:56,393 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-15 21:24:56,438 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2023-12-15 21:24:57,314 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 9999 (http)
+2023-12-15 21:24:57,326 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:24:57,327 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-12-15 21:24:57,328 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-12-15 21:24:57,530 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-12-15 21:24:57,531 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 2444 ms
+2023-12-15 21:25:00,711 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22f057b4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@581e8969, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fc6f68f, org.springframework.security.web.header.HeaderWriterFilter@574f9e36, org.springframework.security.web.authentication.logout.LogoutFilter@2ed84be9, com.lyn.novel.auth.filter.CustomUsernamePasswordAuthenticationFilter@474ce6b8, com.lyn.novel.auth.filter.VerifyCodeAuthenticationFilter@4b61e97, com.lyn.novel.filter.JwtAuthenticationTokenFilter@278fe428, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30437e9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e406cbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@767b9d66, org.springframework.security.web.session.SessionManagementFilter@60b4d934, org.springframework.security.web.access.ExceptionTranslationFilter@44da745f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ab21633]
+2023-12-15 21:25:01,404 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:25:01,429 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 9999 (http) with context path ''
+2023-12-15 21:25:01,432 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-15 21:25:01,493 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#67593f7b:0/SimpleConnection@32f45e15 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59535]
+2023-12-15 21:25:01,579 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 7.133 seconds (JVM running for 7.865)
+2023-12-15 21:25:10,885 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15 21:25:10,886 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-12-15 21:25:10,888 INFO (FrameworkServlet.java:547)- Completed initialization in 2 ms
+2023-12-15 21:25:10,906 INFO (CustomUsernamePasswordAuthenticationFilter.java:40)- 用户名登录请求被过滤器拦截
+2023-12-15 21:25:10,928 INFO (UsernamePasswordAuthenticationProvider.java:23)- 用户名密码登录请求开始验证...
+2023-12-15 21:25:10,985 WARN (ReflectLambdaMeta.java:41)- Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @5fe94a96
+2023-12-15 21:25:11,005 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-12-15 21:25:11,204 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-12-15 21:25:11,365 INFO (CustomUserDetailsServiceImpl.java:64)- LoginUser(identifier=test, credential=$2a$10$Ulva4rclFpfTNMQZhHjeMuMS6fRekWXwydXHuBjt5yUpcUmZNW8iq, permissions=[select], authorities=[select])
+2023-12-15 21:25:11,442 INFO (CustomAuthenticationSuccessHandler.java:42)- 认证成功，将为您生成token
+2023-12-15 21:25:11,781 INFO (CustomAuthenticationSuccessHandler.java:46)- token = eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzAyNjQ2NzE4fQ.3gwUs2V1mk1VtGqazK5JDLxKbl82J-20_ElJj6DOCtE
+2023-12-15 21:25:20,278 INFO (TestController.java:25)- auth success
+2023-12-15 21:32:41,672 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-15 21:32:41,673 INFO (SimpleMessageListenerContainer.java:649)- Waiting for workers to finish.
+2023-12-15 21:32:42,641 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-15 21:32:42,641 INFO (SimpleMessageListenerContainer.java:653)- Successfully waited for workers to finish.
+2023-12-15 21:32:42,666 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-15 21:32:42,667 INFO (SimpleMessageListenerContainer.java:643)- Shutdown ignored - container is already stopped
+2023-12-15 21:32:42,675 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-12-15 21:32:42,684 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2023-12-15 21:32:49,600 INFO (StartupInfoLogger.java:55)- Starting NovelApplication using Java 17.0.6 on DESKTOP-4BE81MI with PID 5360 (E:\code\novel-wjp\novel\novel-server\target\classes started by 86187 in E:\code\novel-wjp\novel)
+2023-12-15 21:32:49,604 INFO (SpringApplication.java:637)- The following 1 profile is active: "dev"
+2023-12-15 21:32:50,722 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-15 21:32:50,726 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-15 21:32:50,765 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-12-15 21:32:51,611 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 9999 (http)
+2023-12-15 21:32:51,625 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:32:51,625 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-12-15 21:32:51,626 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-12-15 21:32:51,817 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-12-15 21:32:51,817 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 2125 ms
+2023-12-15 21:32:57,328 INFO (DefaultSecurityFilterChain.java:55)- Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27b7204, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5895c065, org.springframework.security.web.context.SecurityContextPersistenceFilter@8c18bde, org.springframework.security.web.header.HeaderWriterFilter@4205d5d0, org.springframework.security.web.authentication.logout.LogoutFilter@cea67b1, com.lyn.novel.auth.filter.CustomUsernamePasswordAuthenticationFilter@3620eab, com.lyn.novel.auth.filter.VerifyCodeAuthenticationFilter@2619cb76, com.lyn.novel.filter.JwtAuthenticationTokenFilter@15d88c10, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ae16aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9825465, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@683fac7e, org.springframework.security.web.session.SessionManagementFilter@320ba79f, org.springframework.security.web.access.ExceptionTranslationFilter@22172b00, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d7677d8]
+2023-12-15 21:32:58,026 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9999"]
+2023-12-15 21:32:58,054 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 9999 (http) with context path ''
+2023-12-15 21:32:58,057 INFO (AbstractConnectionFactory.java:638)- Attempting to connect to: [localhost:5672]
+2023-12-15 21:32:58,111 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#14ca88bc:0/SimpleConnection@73905dff [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61203]
+2023-12-15 21:32:58,201 INFO (StartupInfoLogger.java:61)- Started NovelApplication in 9.166 seconds (JVM running for 10.014)
+2023-12-15 21:33:01,010 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15 21:33:01,010 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2023-12-15 21:33:01,012 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2023-12-15 21:33:01,029 INFO (CustomUsernamePasswordAuthenticationFilter.java:43)- 用户名登录请求被过滤器拦截
+2023-12-15 21:33:01,050 INFO (UsernamePasswordAuthenticationProvider.java:23)- 用户名密码登录请求开始验证...
+2023-12-15 21:33:01,105 WARN (ReflectLambdaMeta.java:41)- Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @5fe94a96
+2023-12-15 21:33:01,124 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-12-15 21:33:01,328 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-12-15 21:33:01,471 INFO (CustomUserDetailsServiceImpl.java:64)- LoginUser(identifier=test, credential=$2a$10$Ulva4rclFpfTNMQZhHjeMuMS6fRekWXwydXHuBjt5yUpcUmZNW8iq, permissions=[select], authorities=[select])
+2023-12-15 21:33:01,556 INFO (CustomAuthenticationSuccessHandler.java:41)- 认证成功，将为您生成token
+2023-12-15 21:33:01,898 INFO (CustomAuthenticationSuccessHandler.java:45)- token = eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzAyNjQ3MTg5fQ.tqKntUOXlFpYyYE1mIrZxFHJIW5Uk7McOElgUwtoK3c
+2023-12-15 21:33:08,337 INFO (TestController.java:25)- auth success

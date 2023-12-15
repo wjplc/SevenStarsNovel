@@ -1,0 +1,18 @@
+
+
+spring:
+  #MySQL数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:  jdbc:mysql://123.206.198.235:3306/novel?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&&allowMultiQueries=true&tinyInt1isBit=true
+    username: root
+    password: 123456
+
+
+novel:
+  #跨域配置
+  cors:
+    #允许的跨域的域名
+    allow-origins:
+      - http://123.206.198.235:9999
+      - http://123.206.198.235:8080

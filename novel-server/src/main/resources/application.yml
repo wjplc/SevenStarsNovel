@@ -1,0 +1,83 @@
+spring:
+  application:
+    name: novel
+  profiles:
+    active: dev
+  cache:
+    redis:
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+#邮箱服务器--  QQ
+  mail:
+    host: smtp.qq.com
+    #发件人昵称
+    nickname: “七星小说”
+    #邮箱账户
+    username: 2785676843@qq.com
+    #邮箱第三方授权码
+    password: jkywdkljztuhdfeg
+    protocol: smtps
+    #编码类型
+    default-encoding: UTF-8
+    port: 465
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          auth: true
+          starttls:
+            enable: true
+            required: rue
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
+# springdoc-openapi项目配置
+#springdoc:
+#  swagger-ui:
+#    path: /swagger-ui.html
+#    tags-sorter: alpha
+#    operations-sorter: alpha
+# knife4j的增强配置，不需要增强可以不配
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  openapi:
+    title: novel官方文档
+    description: "hahaha"
+    version: v1.0.0
+    group:
+      test1:
+        group-name: default
+        api-rule: package
+        api-rule-resources:
+          - com.wjp.novel.controller
+novel:
+  jwt:
+    # 设置jwt签名加密时使用的秘钥
+    secret-key: itcast
+    # 设置jwt过期时间 -- 2小时
+    ttl: 7200
+    # 设置前端传递过来的令牌名称
+    token-name: authentication
+  #用户登录方式
+  aliyun:
+    sms:
+      region-id: "cn-hangzhou"
+      endpoint: "dysmsapi.aliyuncs.com"
+      access-key-id: "LTAI5t6RRGxEaSrhHKGCK9Wq"
+      secret: "4zts4semKYghaw93k8x6bi5Koz7Cl8"
+      sign-name: "七星小说"
+      template-code: "SMS_464185567"
+      code-name: "code"
+
+
+
+
+
+
+
